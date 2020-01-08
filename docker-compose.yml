@@ -2,7 +2,6 @@ version: "3"
 services:
   app:
     build: php
-    env_file: .env
     volumes:
       - ./app:/var/www
 
